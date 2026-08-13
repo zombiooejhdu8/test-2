@@ -1,1 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ivan | Cybersecurity Enthusiast</title>
+    <style>
+        :root {
+            --bg-color: #0a0d12;
+            --card-bg: #121824;
+            --text-color: #c9d1d9;
+            --accent-color: #00ff66;
+            --heading-color: #ffffff;
+            --border-color: #21262d;
+        }
 
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #161b22;
+            border-bottom: 1px solid var(--border-color);
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            color: var(--accent-color);
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        .cert-title {
+            font-weight: bold;
+            color: var(--heading-color);
+        }
+
+        .cert-status {
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            color: #8b949e;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hello, World. I'm Ivan.</h1>
+        <p>15-Year-Old Cybersecurity Enthusiast & Aspiring Ethical Hacker</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my corner of the web! I'm Ivan, a 15-year-old high school student deeply passionate about cybersecurity, ethical hacking, and computer science.</p>
+            <p>My journey into technology began at a young age, starting with simple programming and network setups. Over time, my fascination evolved into understanding how systems operate under the hood, discovering vulnerabilities, and learning how to protect critical digital infrastructure.</p>
+            <p>When I'm not studying or practicing hands-on labs, I enjoy participating in Capture The Flag (CTF) competitions, analyzing security protocols, and keeping up with the latest industry news and threat intelligence.</p>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications & Learning Paths</h2>
+            <ul>
+                <li>
+                    <span class="cert-title">CompTIA Security+</span>
+                    <span class="cert-status"> - In Progress / Target 2026</span>
+                    <p>Demonstrates core knowledge in risk management, threat identification, and network security controls.</p>
+                </li>
+                <li>
+                    <span class="cert-title">eJPT (Junior Penetration Tester)</span>
+                    <span class="cert-status"> - In Progress</span>
+                    <p>Hands-on practical training covering assessment methodology, network security, and web application penetration testing basics.</p>
+                </li>
+                <li>
+                    <span class="cert-title">TryHackMe Pre-Security & Jr Penetration Tester Paths</span>
+                    <span class="cert-status"> - Completed</span>
+                    <p>Foundational hands-on labs covering Linux fundamentals, networking basics, web security, and vulnerability scanning tools.</p>
+                </li>
+                <li>
+                    <span class="cert-title">Cisco Networking Academy - Introduction to Cybersecurity</span>
+                    <span class="cert-status"> - Completed</span>
+                    <p>Overview of online safety, data privacy, and foundational network defense strategies.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> Python, Bash, HTML/CSS, basic C</li>
+                <li><strong>Operating Systems:</strong> Linux (Kali, Ubuntu), Windows</li>
+                <li><strong>Tools:</strong> Nmap, Wireshark, Burp Suite, Metasploit basics</li>
+                <li><strong>Concepts:</strong> Network Fundamentals (TCP/IP, DNS), Ethical Hacking Methodology, Web Application Security</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects & Practice</h2>
+            <p>Here are a few things I work on in my homelab:</p>
+            <ul>
+                <li><strong>CTF Challenges:</strong> Regularly active on platforms like TryHackMe and Hack The Box to practice privilege escalation and web exploits.</li>
+                <li><strong>Network Monitoring:</strong> Configured Wireshark in a local virtual lab to analyze network packets and detect suspicious traffic patterns.</li>
+                <li><strong>Personal Website:</strong> Built and maintained this portfolio site using HTML/CSS to document my learning journey.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Get in Touch</h2>
+            <p>Interested in collaborating, sharing resources, or discussing security? Reach out!</p>
+            <p><strong>Email:</strong> ivan@example.com</p>
+            <p><strong>GitHub:</strong> github.com/your-username</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ivan. Built with passion and security in mind.</p>
+    </footer>
+
+</body>
+</html>
