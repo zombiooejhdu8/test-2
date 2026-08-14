@@ -6,3 +6,9 @@ h5{
 div{
     border: solid black 1px;
 }
+a{
+    border: solid black 1px; 
+    padding: 4%;
+    margin: 6%;
+}
+
