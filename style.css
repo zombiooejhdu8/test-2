@@ -12,3 +12,10 @@ a{
     margin: 6%;
 }
 
+ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 25vh;
+  border: solid black 1px;
+}
