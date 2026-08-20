@@ -19,3 +19,30 @@ ul {
   height: 25vh;
   border: solid black 1px;
 }
+
+/* Container for the whole section */
+#part3 {
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+/* Heading styling */
+#part3 h3 {
+  text-align: center;
+}
+
+/* Flexbox layout for milestone cards */
+#milecount {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Individual Milestone Card styling */
+.milestone {
+  width: 30%;
+  height: 25vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: #f0f0f0; /* Replace with your preferred color */
+}
